@@ -1,0 +1,393 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+	
+	.hero-text-box {
+		
+		width: 100%;
+		padding: 0 2%;
+	}
+	
+	.row { padding: 0 2%; }
+	
+/********************** SECTION PLANS **************************/
+
+	.section-plans .plan-box div:first-child{
+
+		height: none;
+	}
+
+	.section-plans .plan-box div:nth-of-type(2){
+
+		height: none;
+	}
+	
+	
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+	
+	body { 
+		
+		font-size: 18px !important;
+		font-weight: 400 !important;
+	}
+	
+	section { padding: 60px 0; }
+	
+/**************************** BTN ************************************************/
+	
+	.btn:link, 
+	.btn:visited,
+	input[type=submit]{
+
+		font-weight: 300 !important;
+	}
+	
+	.img-font { 
+		
+		width: 15px;
+		margin-right: 5px !important;
+	}
+	
+/************************* SECTION FEATURES ***********************************/
+	
+	.long-copy {
+		
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+/********************** SECTION CITIES *****************************/
+	
+	.section-cities .box-city {
+	
+		position: relative;
+	}
+	
+	.city-feature .box-city-font {
+
+		width: 10%;
+		height: auto;
+		margin: 0 5px 15px 0;
+		float: left;
+	}
+	
+	.city-feature:last-of-type .box-city-font{
+		
+		clear: left;
+	}
+	
+	.city-feature:first-of-type .box-city-font,
+	.city-feature:nth-of-type(2) .box-city-font{
+		
+		margin-top: 4px;
+	}
+	
+	.city-feature:last-of-type .city-text{
+
+		position: absolute;
+		margin-top: 5px;
+	}
+	
+	.city-feature .city-text {
+		
+		font-size: 90%;
+	}
+	
+
+/***************** SECTION PLANS ********************************************/
+	
+	.section-plans h3 {
+		
+		font-weight: 400;
+	}
+	
+	.section-plans .plan-price {
+		
+		font-size: 250%;
+		font-weight: 400;
+	}
+	
+	.section-plans .plan-price-meal {
+		
+		font-size: 92%;
+		font-weight: 400;
+	}
+	
+	.section-plans .plan-price span {
+		
+		font-size: 40%;
+		font-weight: 400;
+	}
+	
+	.section-plans li img{
+		
+		width: 18px;
+		height: auto;
+		float: left;
+		margin-bottom: 10px;
+	}
+
+	.section-plans .plan-box div:first-child{
+
+		height: none;
+	}
+
+	.section-plans .plan-box div:nth-of-type(2){
+
+		height: none;
+	}
+	
+/****************************** SECTION STEPS ***************************************************/
+	
+	.section-steps { font-weight: 300; }
+	
+	.steps-box { margin-top: 10px; }
+	
+	.steps-box:last-child { margin-top: 30px; }
+	
+	.works-step { margin-bottom: 10%; }
+	
+	.works-step:first-child { margin-top: 15%; }
+	
+	.works-step:last-of-type { margin-bottom: 20%; }
+	
+	.app-screen {width: 50%; }
+	
+	.works-step div {
+		
+		font-size: 110%;
+	}
+	
+/****************************** CONTACT FORM ***************************************************/
+	
+	.contact-form {
+		
+		width: 80%;
+	}
+	
+/****************************** FOOTER ***************************************************/
+	
+	footer .col{
+		
+		width: 49.2%;
+	}
+	
+	
+	.footer-nav li {
+		
+		margin-right: 10px;
+	}
+}
+
+/* Small Phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+	
+	body { font-size: 16px; }
+	
+	section { padding: 30px 0; }
+	
+	h1 { font-size: 180%; }
+	
+	h2 { font-size: 150%; }
+	
+	.row { padding: 0 4%; }
+	
+	.col { 
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	.long-copy {
+		
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+/****************************** HEADER ***************************************************/
+	
+	.main-nav { display: none; }
+	
+	.mobile-nav-icon { display: inline-block; }
+	
+	.main-nav {
+		
+		float: left;
+		margin-top: 35px;
+		margin-left: 25px;
+	}
+	
+	.main-nav li {
+		
+		display: block;
+	}
+	
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+	
+	.sticky .main-nav { margin-top: 10px; }
+
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited { padding: 10px 0px; }
+	.sticky .mobile-nav-icon { margin-top: 10px; }
+	.sticky .mobile-nav-icon i { color: #555; }
+	
+	.hero-text-box { padding: 0 4%; }
+	
+/****************************** SECTION FEATURES ***********************************************/
+	
+	.section-features .icon-big {
+		
+		width: 20%;
+		margin-bottom: 0;
+	}
+	
+/****************************** SECTION STEPS ***************************************************/
+	
+	.section-steps { font-weight: 300; }
+	
+	.steps-box { margin-top: 10px; }
+	
+	.steps-box:last-child { margin-top: 0; }
+	
+	.works-step { margin-bottom: 5%; }
+	
+	.works-step:first-child { margin-top: 5%; }
+	
+	.works-step:last-of-type { margin-bottom: 10%; }
+	
+	.app-screen { width: 40%; }
+	
+	.steps-box:first-child { text-align: center; }
+	
+	.works-step div {
+		
+		font-size: 110%;
+	}
+	
+	.section-steps .btn-app:first-of-type {
+		
+		margin-left: 20%;
+	}
+	
+	.section-steps .btn-app img {
+		
+		width: 30%;
+		height: 36.8px;
+	}
+
+	.section-steps .btn-app:last-child img {
+		
+		width: 30%;
+		height: 36.8px;
+	}
+	
+/****************************** SECTION CITIES **************************************************/
+
+	.box-city .img-city {
+
+		width: 75%;
+	}
+
+	.box-city-font {
+
+		width: 10%;
+	}
+
+	.city-feature .box-city-font {
+
+		width: 5%;
+		clear: left;
+		margin-bottom: 0;
+		margin-top: 0 !important;
+	}
+
+	.city-feature:first-of-type img {
+
+		margin-bottom: 5px;
+	}
+
+	.city-feature:nth-last-of-type(2) img {
+
+		margin-bottom: 10px;
+	}
+
+/****************************** SECTION PLANS **************************************************/
+	
+	.section-plans .plan-box {
+		
+		margin-bottom: 10px;
+	}
+
+	.section-plans .plan-box div:first-child{
+
+		height: none;
+	}
+
+	.section-plans .plan-box div:nth-of-type(2) {
+
+		height: none;
+	}
+	
+	
+}
+	
+/****************************** CONTACT FORM ***************************************************/
+	
+	.contact-form {
+		
+		width: 100%;
+	}
+	
+/****************************** FOOTER ***************************************************/
+	
+	footer {
+	
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	footer .col{
+		
+		width: 49.2%;
+	}
+	
+	footer p {
+		
+		margin-top: 15px;
+	}
+	
+	.footer-nav li,
+	.social-links li {
+		
+		display: block;
+		margin-bottom: 5px;
+	}
+}
+
+/* Small Phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+	
+	section { padding: 25px 0; }
+		
+/****************************** SECTION CITIES **************************************************/
+	
+	.city-feature .box-city-font {
+	
+		margin-top: 3px !important;
+	}
+	
+/****************************** CONTACT FORM ***************************************************/
+	
+	.contact-form div {
+		
+		margin-bottom: 10px;
+	}
+}
